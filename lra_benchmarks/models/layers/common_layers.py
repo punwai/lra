@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Common layers used in models."""
-from flax import nn
+from flax import linen as nn
 from jax import lax
 import jax.numpy as jnp
 import numpy as np
